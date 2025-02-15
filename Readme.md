@@ -1,6 +1,6 @@
-# BrainBlitz
+# Brain Blitz
 
-BrainBlitz is a quiz application that allows users to test their knowledge across various topics.
+Brain Blitz is a quiz application that allows users to test their knowledge across various topics.
 
 ## Features
 
@@ -35,50 +35,62 @@ BrainBlitz is a quiz application that allows users to test their knowledge acros
    ```bash
    git clone [https://github.com/dWanderingSoul/brain-blitz.git](https://github.com/dWanderingSoul/brain-blitz.git)
    cd brain-blitz
-Install dependencies:
+   
+2. **Install dependencies:**
 
-Bash
-
+ ```bash
 npm install
-Create a .env file in the root directory with the following variables:
+```
+3. **Create a .env file in the root directory with the following variables:**
 
+```bash
 PORT=3000
 MONGODB_URI=mongodb://localhost:27017/brainblitz
 JWT_SECRET=your_jwt_secret_key 
-Start the MongoDB service.
+```
 
-Run the application:
+4. **Start the MongoDB service.**
 
-Bash
+5. **Run the application:**
 
+```bash
 npm start
-Getting Started
-Run the application: Execute npm start in your terminal.
-Access the application: Open your web browser and navigate to http://localhost:3000.
-API Endpoints
-POST /auth/register - Register a new user
-POST /auth/login - Login user
-GET /users/profile - Get user profile
-GET /admin/dashboard - Admin dashboard (requires admin role)
-Tech Stack
-Backend: Node.js, Express.js, MongoDB, Mongoose, JWT
-Testing: [Jest] 
-Linting:  [ESLint]
-Contributing
-Fork the repository.
-Create a new branch for your feature/fix: git checkout -b feature/your-feature
-Make your changes and commit them: git commit -m "Your commit message"
-Push your changes to your fork: git push origin feature/your-feature   
-Create a pull request on the original repository.   
-Code Style:
+```
 
-Follow consistent code style and formatting.
-Use meaningful variable and function names.
-Write clean and well-documented code.
-License
-MIT
+**Getting Started**
 
-Note: This is a sample README file, and you may need to adjust it based on the specific features and technologies used in your BrainBlitz application.
+1. Run the application: Execute npm start in your terminal.
+2. Access the application: Open your web browser and navigate to http://localhost:3000.
+
+**API Endpoints**
+- POST /auth/register - Register a new user
+- POST /auth/login - Login user
+- GET /users/profile - Get user profile
+- GET /admin/dashboard - Admin dashboard (requires admin role)
+
+**Tech Stack**
+- Backend: Node.js, Express.js, MongoDB, Mongoose, JWT
+- Testing: [Jest] 
+- Linting:  [ESLint]
+
+**Contributing**
+1. Fork the repository.
+2. Create a new branch for your feature/fix: git checkout -b feature/your-feature
+3. Make your changes and commit them: git commit -m "Your commit message"
+4. Push your changes to your fork: git push origin feature/your-feature   
+5. Create a pull request on the original repository.
 
 
-Sources and related content
+**Code Style:**
+
+1. Follow consistent code style and formatting.
+2. Use meaningful variable and function names.
+3. Write clean and well-documented code.
+
+**License**
+
+[MIT](https://choosealicense.com/licenses/mit/)
+
+
+
+
